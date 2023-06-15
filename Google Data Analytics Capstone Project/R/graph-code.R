@@ -26,5 +26,18 @@ ggplot(data = Intensity) + geom_bar(mapping=aes(x = MilitaryTime, y = avg_intens
 
 
 
+# Scatter plot - Calories vs Total Steps
+
+dailyactivity = read.csv("dailyActivity.csv")
+
+ggplot(data = dailyactivity, mapping = aes(x = TotalSteps, y = Calories)) + geom_point() +
+  geom_smooth() + labs(title = "Calories vs Total Steps") + xlab("Total Steps") +
+  theme(plot.title = element_text(hjust = 0.5))
+
+
+
+
+
+
 
 
