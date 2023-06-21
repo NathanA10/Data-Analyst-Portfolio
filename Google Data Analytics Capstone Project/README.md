@@ -18,3 +18,7 @@ The main focus of this analysis will:
 * Determine how the trends can support Bellabeat marketing strategy
 
 **Dataset**
+The public dataset “FitBit Fitness Tracker Data” from Kaggle is provided to explore the fitness tracker of thirty FitBit users. This dataset contained data that tracked the activity, sleep and weight of the users. 
+ 
+There are limitations to this public dataset and it’s important to have this consideration during the analysis and recommendation.
+ 
